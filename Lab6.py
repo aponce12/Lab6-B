@@ -62,11 +62,7 @@ def kruskalMST(graph):
             e=e+1
             MST.append([u,v,w])
             union(parent,rank,x,y)
-    return MST
-    for u,v,weight in MST: 
-        print (str(u) + " -- " + str(v) + " == " + str(weight))
-        #print ("%d -- %d == %d" % (u,v,weight))
-        
+    return MST       
 
         
 ### Topological sort ##
